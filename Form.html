@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata</title>
+</head>
+<body bgcolor="aqua">
+    
+    <form>
+        <fieldset>
+            <legend><h2>Biodata Mahasiswa</h2></legend>
+            <p>
+                <label for="name">Nama</label><br>
+                <input type="text" name="name" id="name"/>
+            </p>
+            <p>    
+                <label for="tanggallahir">Tanggal Lahir</label><br>
+                <input type="date" name="tanggallahir" id="tanggallahir" value="2002-09-08"/>
+            </p>
+            <p>
+                <label>Jenis Kelamin</label><br>
+                <input type="radio" name="jk" value="l"/>Laki-laki
+                <input type="radio" name="jk" value="p"/>Perempuan
+            </p>
+            <p>
+                <label for="email">Email</label><br>
+                <input type="text" name="email" id="email">
+            </p>
+            <p>
+                <label for="alamat">Alamat</label><br>
+                <textarea name="alamat" id="alamat" cols="50"></textarea>
+            </p>
+            <p>
+                <label for="telepon">No. Telp</label><br>
+                <input type="text" name="telepon" id="telepon" value=""/>
+            </p>
+            <p>
+                <label>Jurusan</label><br>
+                <select name="jurusan">
+                    <option disabled selected hidden>Pilih</option>
+                    <option>Teknik Informatika</option>
+                    <option>Sistem Informasi</option>
+                </select>
+            </p>
+            <p>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
